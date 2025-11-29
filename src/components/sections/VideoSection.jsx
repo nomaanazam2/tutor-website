@@ -44,10 +44,10 @@ const VideoSection = ({ onPlayVideo }) => (
       <div className="grid md:grid-cols-3 gap-8">
         {/* Pass real YouTube IDs here */}
         <VideoCard
-          title="Algebra Basics"
-          duration="10:00"
-          videoId="NybHckSEQBI"
-          level="Middle School"
+          title="Algebra Basics - Solving Equations"
+          duration="5:33"
+          videoId="UHsk9pSISmw"
+          level="IGCSE / Class 7"
           onClick={onPlayVideo}
         />
         <VideoCard
