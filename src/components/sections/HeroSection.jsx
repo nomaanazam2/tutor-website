@@ -7,6 +7,9 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
+// import samra_profile_image from "../../assets/samra.jpeg";
+import samra_profile_image from "../../assets/samra2.jpeg";
+
 const Hero = ({ onNavigate }) => (
   <header
     id="home"
@@ -76,12 +79,12 @@ const Hero = ({ onNavigate }) => (
           <div className="text-center p-8 z-10 flex flex-col items-center">
             {/* Profile Image Container */}
             <div className="relative mb-4">
-              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden">
+              <div className="w-42 h-42 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden">
                 {/* REPLACE THE SRC BELOW WITH YOUR ACTUAL PROFILE IMAGE URL.
                    If you don't have one online yet, you can put it in the public folder and use "/profile.jpg"
                 */}
                 <img
-                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  src={samra_profile_image}
                   alt="Samra Siddiqui"
                   className="w-full h-full object-cover"
                 />
