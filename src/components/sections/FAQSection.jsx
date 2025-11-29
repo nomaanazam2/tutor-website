@@ -19,7 +19,7 @@ const FAQ = () => {
     },
     {
       q: "How do I pay?",
-      a: "Payments can be made via Bank Transfer or PayPal. Fees are usually collected monthly in advance.",
+      a: "Payments can be made via Bank Transfer or PayPal. Fees are typically collected after every four sessions or monthly, whichever occurs sooner.",
     },
   ];
 

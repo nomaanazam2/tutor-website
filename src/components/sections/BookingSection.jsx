@@ -304,8 +304,8 @@ const ContactSection = () => {
                   Book a Free Demo
                 </h3>
                 <p className="text-slate-500 mt-2">
-                  Pick a time slot that suits you. We will meet on Zoom/Meet for
-                  30 minutes to discuss your goals.
+                  Pick a time slot that suits you. We’ll meet on Google Meet for
+                  a 30-minute math demo lesson.
                 </p>
               </div>
 
@@ -335,17 +335,12 @@ const ContactSection = () => {
                     <MessageCircle size={20} className="text-green-500" />
                     <span className="font-medium">Connect on WhatsApp</span>
                   </a>
-                  <a
-                    href="https://wa.me/919876543210"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="flex items-center gap-3 text-slate-600 hover:text-green-600 transition-colors p-3 hover:bg-green-50 rounded-lg group"
-                  >
+                  <div className="flex items-center gap-3 text-slate-600 hover:text-indigo-600 transition-colors p-3 hover:bg-indigo-50 rounded-lg">
                     <Phone size={20} className="text-indigo-600" />
                     <span className="font-medium">+91 7302652421</span>
-                  </a>
+                  </div>
                   <a
-                    href="mailto:tutor@samrasiddiqui.com"
+                    href="mailto:samrasddq77@gmail.com"
                     className="flex items-center gap-3 text-slate-600 hover:text-indigo-600 transition-colors p-3 hover:bg-indigo-50 rounded-lg"
                   >
                     <Mail size={20} className="text-indigo-500" />

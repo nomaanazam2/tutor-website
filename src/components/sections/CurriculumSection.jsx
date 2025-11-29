@@ -37,7 +37,7 @@ const Curriculum = () => (
         <CurriculumCard
           title="Foundational Math"
           icon={<BookOpen className="w-8 h-8 text-purple-500" />}
-          desc="Building strong basics for Primary and Middle school students (Class 1 - 8) to remove fear of Algebra and Geometry."
+          desc="Building strong basics for Primary and Middle school students to remove fear of Algebra and Geometry."
         />
       </div>
     </div>

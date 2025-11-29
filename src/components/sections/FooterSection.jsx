@@ -39,7 +39,7 @@ const Footer = ({ onNavigate }) => (
             <li className="flex items-center gap-3">
               <Mail size={18} className="text-indigo-500" />
               <a
-                href="mailto:tutor@samrasiddiqui.com"
+                href="mailto:samrasddq77@gmail.com"
                 className="hover:text-white"
               >
                 samrasddq77@gmail.com

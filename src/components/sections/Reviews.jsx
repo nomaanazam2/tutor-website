@@ -33,7 +33,7 @@ function Reviews() {
           <ReviewCard
             name="Sarah J."
             location="Australia (NSW Board)"
-            text="Samra helped me finally understand calculus. Her assignments were perfect for practice. I went from a C to an A!"
+            text="Samra helped me finally understand Trigonometry. Her assignments were perfect for practice. I went from a C to an A!"
           />
           <ReviewCard
             name="Rahul M."

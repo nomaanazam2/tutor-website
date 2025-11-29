@@ -2,8 +2,9 @@ import {
   ArrowRight,
   CheckCircle,
   Globe,
-  GraduationCap,
   Video,
+  Star,
+  ShieldCheck,
 } from "lucide-react";
 
 const Hero = ({ onNavigate }) => (
@@ -11,6 +12,7 @@ const Hero = ({ onNavigate }) => (
     id="home"
     className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-gradient-to-b from-slate-50 to-white"
   >
+    {/* Decorative Background Element */}
     <div className="absolute top-0 right-0 -z-10 opacity-5">
       <svg width="600" height="600" viewBox="0 0 200 200">
         <path
@@ -22,6 +24,7 @@ const Hero = ({ onNavigate }) => (
     </div>
 
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
+      {/* Left Content */}
       <div className="space-y-8 animate-in slide-in-from-left duration-700">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-indigo-50 border border-indigo-100 rounded-full text-indigo-700 text-sm font-bold shadow-sm">
           <Globe size={16} />
@@ -64,24 +67,47 @@ const Hero = ({ onNavigate }) => (
         </div>
       </div>
 
+      {/* Right Content - Profile Card */}
       <div className="relative animate-in slide-in-from-right duration-700 delay-100">
         <div className="aspect-[4/3] rounded-3xl bg-white border-8 border-white shadow-2xl overflow-hidden flex items-center justify-center relative">
+          {/* Subtle Grid Background Pattern */}
           <div className="absolute inset-0 bg-indigo-600/5 grid-pattern"></div>
-          <div className="text-center p-8 z-10">
-            <div className="w-28 h-28 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl text-white">
-              <GraduationCap size={56} />
+
+          <div className="text-center p-8 z-10 flex flex-col items-center">
+            {/* Profile Image Container */}
+            <div className="relative mb-4">
+              <div className="w-32 h-32 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden">
+                {/* REPLACE THE SRC BELOW WITH YOUR ACTUAL PROFILE IMAGE URL.
+                   If you don't have one online yet, you can put it in the public folder and use "/profile.jpg"
+                */}
+                <img
+                  src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                  alt="Samra Siddiqui"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Verified Badge */}
+              <div
+                className="absolute bottom-1 right-1 bg-white p-1.5 rounded-full shadow-md"
+                title="Verified Tutor"
+              >
+                <ShieldCheck className="text-blue-500 w-5 h-5 fill-blue-50" />
+              </div>
             </div>
+
             <h3 className="text-3xl font-bold text-slate-800">
               Samra Siddiqui
             </h3>
-            <p className="text-indigo-600 font-medium text-lg mt-2">
+            <p className="text-indigo-600 font-medium text-lg mt-1">
               Professional Math Tutor
             </p>
+
             <div className="mt-6 flex flex-wrap justify-center gap-2">
               {["IGCSE", "NSW", "VCAA", "Grades 1-10"].map((tag) => (
                 <span
                   key={tag}
-                  className="px-3 py-1 bg-slate-100 rounded-md text-xs font-bold text-slate-600 uppercase tracking-wide"
+                  className="px-3 py-1 bg-slate-100 rounded-md text-xs font-bold text-slate-600 uppercase tracking-wide border border-slate-200"
                 >
                   {tag}
                 </span>

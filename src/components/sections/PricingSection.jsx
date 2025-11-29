@@ -30,16 +30,16 @@ const Pricing = () => (
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-700">
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Basic
-              Arithmetic
+              <CheckCircle size={16} className="text-indigo-600" /> One-to-One
+              Session
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Logic
-              Building
+              <CheckCircle size={16} className="text-indigo-600" /> Weekly Home
+              Assignment
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Homework
-              Help
+              <CheckCircle size={16} className="text-indigo-600" /> Monthly
+              Assessment
             </li>
           </ul>
         </div>
@@ -59,16 +59,16 @@ const Pricing = () => (
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-700">
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Algebra
-              Basics
+              <CheckCircle size={16} className="text-indigo-600" /> One-to-One
+              Session
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Geometry &
-              Mensuration
+              <CheckCircle size={16} className="text-indigo-600" /> Weekly Home
+              Assignment
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Word
-              Problems
+              <CheckCircle size={16} className="text-indigo-600" /> Monthly
+              Assessment
             </li>
           </ul>
         </div>
@@ -120,16 +120,16 @@ const Pricing = () => (
           </p>
           <ul className="mt-6 space-y-3 text-sm text-slate-700">
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Past Paper
-              Solving
+              <CheckCircle size={16} className="text-indigo-600" /> One-to-One
+              Session
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Advanced
-              Trigonometry
+              <CheckCircle size={16} className="text-indigo-600" /> Weekly Home
+              Assignment
             </li>
             <li className="flex gap-2">
-              <CheckCircle size={16} className="text-indigo-600" /> Exam
-              Strategies
+              <CheckCircle size={16} className="text-indigo-600" /> Monthly
+              Assessment
             </li>
           </ul>
         </div>

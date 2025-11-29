@@ -93,8 +93,8 @@ function ExperienceSection() {
             <div className="space-y-4">
               <FeatureRow text="Personalized 1-on-1 attention" />
               <FeatureRow text="Customized home assignments" />
-              <FeatureRow text="Exam strategies & anxiety management" />
-              <FeatureRow text="Deep conceptual understanding over rote learning" />
+              <FeatureRow text="Exam strategies" />
+              <FeatureRow text="Deep conceptual understanding" />
             </div>
 
             <div className="mt-8 p-6 bg-indigo-50 rounded-xl border border-indigo-100">
