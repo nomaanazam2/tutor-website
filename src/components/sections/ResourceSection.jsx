@@ -3,9 +3,14 @@ import AlgebraMistakesModal from "../resources/Mistakes";
 import TrigonometryModal from "../resources/Trigonometry";
 import ExamAnxietyModal from "../resources/Wellness";
 import TimeReadingModal from "../resources/Time";
+import FractionsModal from "../resources/Fractions";
+import AlgebraBasicsModal from "../resources/Algebra";
+import QuadraticModal from "../resources/QuadraticEq";
+import MathGamesModal from "../resources/MathFun";
 
 import Section from "../../utility/Section";
 import { useState } from "react";
+import CommonMistakesModal from "../resources/CommonMistakes";
 
 const Resources = () => {
   const [activeKey, setActiveKey] = useState(null);
@@ -37,6 +42,36 @@ const Resources = () => {
         type: "Guide",
         desc: "Learn to read the clock like a pro!",
       },
+      {
+        key: "fractionGuide",
+        title: "Fraction Mastery (Grades 4-5)",
+        type: "Guide",
+        desc: "Visualizing, Simplifying & Solving",
+      },
+      {
+        key: "algebraGuide",
+        title: "Algebra Adventure (Grades 6-8)",
+        type: "Guide",
+        desc: "The Ultimate Guide to Expressions & Equations",
+      },
+      {
+        key: "quadraticGuide",
+        title: "Quadratic Equations(Grades 9-10)",
+        type: "Guide",
+        desc: "The Ultimate Guide to Quadratic Equations",
+      },
+      {
+        key: "mathFun",
+        title: "MATH ARCADE GAME",
+        type: "Fun",
+        desc: "Level Up Your Brain",
+      },
+      {
+        key: "commonMistakes",
+        title: "Math Myth Busters",
+        type: "Guide",
+        desc: "Debugging the Top 10 Student Mistakes",
+      },
     ];
   }, []);
 
@@ -59,6 +94,21 @@ const Resources = () => {
 
       case "timeGuide":
         return <TimeReadingModal handleClose={handleClose} />;
+
+      case "fractionGuide":
+        return <FractionsModal handleClose={handleClose} />;
+
+      case "algebraGuide":
+        return <AlgebraBasicsModal handleClose={handleClose} />;
+
+      case "quadraticGuide":
+        return <QuadraticModal handleClose={handleClose} />;
+
+      case "mathFun":
+        return <MathGamesModal handleClose={handleClose} />;
+
+      case "commonMistakes":
+        return <CommonMistakesModal handleClose={handleClose} />;
     }
   };
 
