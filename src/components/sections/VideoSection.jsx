@@ -41,7 +41,7 @@ const VideoSection = ({ onPlayVideo }) => (
           Watch short clips to understand my teaching methodology.
         </p>
       </div>
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 gap-8">
         {/* Pass real YouTube IDs here */}
         <VideoCard
           title="Algebra Basics - Solving Equations"
@@ -57,13 +57,13 @@ const VideoSection = ({ onPlayVideo }) => (
           level="IGCSE / Class 10"
           onClick={onPlayVideo}
         />
-        <VideoCard
+        {/* <VideoCard
           title="Calculus Limits"
           duration="6:15"
           videoId="NybHckSEQBI"
           level="High School"
           onClick={onPlayVideo}
-        />
+        /> */}
       </div>
     </div>
   </Section>
