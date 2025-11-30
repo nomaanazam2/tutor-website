@@ -45,15 +45,15 @@ const VideoSection = ({ onPlayVideo }) => (
         {/* Pass real YouTube IDs here */}
         <VideoCard
           title="Algebra Basics - Solving Equations"
-          duration="5:33"
+          duration="5:31"
           videoId="UHsk9pSISmw"
           level="IGCSE / Class 7"
           onClick={onPlayVideo}
         />
         <VideoCard
-          title="IGCSE Trigonometry"
-          duration="8:45"
-          videoId="NybHckSEQBI"
+          title="Introduction to Trigonometry"
+          duration="9:24"
+          videoId="BUW96pwZQsk"
           level="IGCSE / Class 10"
           onClick={onPlayVideo}
         />
