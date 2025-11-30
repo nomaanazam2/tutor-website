@@ -79,7 +79,7 @@ const Hero = ({ onNavigate }) => (
           <div className="text-center p-8 z-10 flex flex-col items-center">
             {/* Profile Image Container */}
             <div className="relative mb-4">
-              <div className="w-42 h-42 md:w-40 md:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden">
+              <div className="w-[142px] h-[142px] sm:w-40 sm:h-40 rounded-full border-4 border-white shadow-2xl overflow-hidden">
                 {/* REPLACE THE SRC BELOW WITH YOUR ACTUAL PROFILE IMAGE URL.
                    If you don't have one online yet, you can put it in the public folder and use "/profile.jpg"
                 */}

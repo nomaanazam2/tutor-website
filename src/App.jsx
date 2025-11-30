@@ -103,7 +103,7 @@ const Navbar = ({ onNavigate }) => {
           </span>
         </div>
 
-        <div className="hidden md:flex items-center space-x-6">
+        <div className="hidden tablet:flex items-center space-x-6">
           {navLinks.map((item) => (
             <button
               key={item.name}
@@ -122,7 +122,7 @@ const Navbar = ({ onNavigate }) => {
         </div>
 
         <button
-          className="md:hidden text-slate-600 p-2"
+          className="tablet:hidden text-slate-600 p-2"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
           {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
@@ -130,7 +130,7 @@ const Navbar = ({ onNavigate }) => {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-slate-100 py-4 px-4 flex flex-col space-y-4 animate-in slide-in-from-top-5">
+        <div className="tablet:hidden absolute top-full left-0 w-full bg-white shadow-xl border-t border-slate-100 py-4 px-4 flex flex-col space-y-4 animate-in slide-in-from-top-5">
           {navLinks.map((item) => (
             <button
               key={item.name}

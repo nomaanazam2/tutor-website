@@ -3,7 +3,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        tablet: "930px", // your custom breakpoint
+        tablet: "950px", // your custom breakpoint
       },
     },
   },
